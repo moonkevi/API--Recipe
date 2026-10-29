@@ -41,6 +41,10 @@ h1{
 }
 
 .recipe-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-width: 0;
     /* padding: 15px; */
     background-color: white;
@@ -161,4 +165,19 @@ nav{
         align-items: center;
         gap: 20px;
     }
+}
+
+.btn{
+    padding: 10px;
+    width: 80px;
+    border-radius: 999px;   
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background:rgb(230, 221, 209) ;
+    font-size: 12px;
+    cursor: pointer;
+  box-shadow: 0 2px 0 #c6abb8, 0 5px 10px rgba(255, 130, 190, 0.35);
+  /* transition: transform 0.15s ease, box-shadow 0.15s ease; */
+  margin-bottom: 5px;
 }
